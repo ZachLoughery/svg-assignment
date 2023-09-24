@@ -1,0 +1,8 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="house" viewBox="0 0 800 700">
+        <polyline class="roof" points="0,320 400,20 800,320" fill="none" stroke="currentColor" stroke-width="30px"
+            stroke-linejoin="round" stroke-linecap="round" />
+        <polyline class="foundation" points="75,350 75,700 320,700 320,515 480,515 480,700 721,700 721,350" fill="none"
+            stroke="currentColor" stroke-width="30px" stroke-linejoin="round" stroke-linecap="round">
+    </symbol>
+</svg>

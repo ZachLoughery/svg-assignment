@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>SVG Assignment</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <svg
+          class="diamond"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 800 750"
+        >
+          <polyline
+            class="outline"
+            points="180,50 620,50 763,265 400,717 37,265 180,50"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="30px"
+            stroke-linejoin="round"
+            stroke-linecap="round"
+          ></polyline>
+          <polyline
+            class="divider"
+            points="37,265 763,265"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="30px"
+            stroke-linejoin="round"
+            stroke-linecap="round"
+          ></polyline>
+          <polyline
+            class="long-lines"
+            points="180,50 400,717 620,50"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="30px"
+            stroke-linejoin="round"
+            stroke-linecap="round"
+          ></polyline>
+          <polyline
+          class="upper-lines"
+          points="265,265 400,50 535,265"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="30px"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+        ></polyline>
+        </svg>
+        <svg class="house">
+            <use href="images/house.svg#house"></use>
+        </svg>
+      </section>
+    </main>
+  </body>
+</html>

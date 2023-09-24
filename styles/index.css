@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diamond {
+  width: 500px;
+  height: 450px;
+  color: rgb(253, 81, 138);
+}
+
+.house {
+  color: rgb(253, 81, 138);
+  height: 500px;
+  width: 600px;
+}
